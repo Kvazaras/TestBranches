@@ -27,5 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void onclick(View view) {
         TextView textView = findViewById(R.id.tvMain);
         textView.setText("labas");
+        textView.setText("labas from master");
+
     }
 }
